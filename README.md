@@ -1,22 +1,10 @@
-# Hacker Rank Python
-This repository contains the solved programming challenges in Hacker Rank. It is a repository in progress, it will be updated as soon as possible with the rest of the challenges. The goal is to have all assignements published as soon as possible. The following topis will be covered :
-1. Introduction (completed)
-2. Basic Data Types (completed)
-3. Strings
-4. Sets
-5. Math (completed)
-6. Itertools
-7. Collections
-8. Date and Time
-9. Errors and Exceptions
-10. Classes
-11. Built-Ins
-12. Python Functionals
-13. Regex and Parsing
-14. XML
-15. Closures and Decorators
-16. Numpy
-17. Debugging
+# Image Classifier
+
+  Going forward, AI algorithms will be incorporated into more and more everyday applications. For example, you might want to include an image classifier in a smart phone app. To do this, you'd use a deep learning model trained on hundreds of thousands of images as part of the overall application architecture. A large part of software development in the future will be using these types of models as common parts of applications.
+  
+  In this project, you'll train an image classifier to recognize different species of flowers. You can imagine using something like this in a phone app that tells you the name of the flower your camera is looking at. In practice you'd train this classifier, then export it for use in your application. We'll be using this dataset of 102 flower categories.
+  
+  When you've completed this project, you'll have an application that can be trained on any set of labeled images. Here your network will be learning about flowers and end up as a command line application. But, what you do with your new skills depends on your imagination and effort in building a dataset.
 
 ## Getting Started
 
@@ -37,8 +25,23 @@ to upgrade Python
 ```
 pip install python -- upgrade
 ```
-### Structure
-Each project is inside a folder indicating its dificilty and the subdomain it belongs. For example the py-hello-world-English program is an easy programming assignement ( folder -- easy ) and it is an introductory one ( folder -- Introduction ) . Each programming assignemnt is also accompanied by a pdf file,bearing the same name, provided by Hacker Rank which explains the assignement. 
+Additional Packages that are required are: [Numpy](http://www.numpy.org/), [Pandas](https://pandas.pydata.org/), [MatplotLib](https://matplotlib.org/), [Pytorch](https://pytorch.org/), PIL and json
+You can donwload them using [pip](https://pypi.org/project/pip/)
+```
+pip install numpy pandas matplotlib pil
+```
+or [conda](https://anaconda.org/anaconda/python)
+```
+conda install numpy pandas matplotlib pil
+```
+In order to intall Pytorch head over to the Pytorch site select your specs and follow the instructions given
+
+### Command Line Application
+Train.py --> Train a new network on the dataset
+  Basic Usage: ``` python train.py data_directory ```
+  Prints out current epocs, training loss, validation loss and validation accuracy as the network trains
+  Options:
+    
 
 
 ## Contributing
