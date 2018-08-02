@@ -91,6 +91,9 @@ As you can see you have a wide selection of hyperparameters available and you ca
 
 *My settings were lr=0.001, dropoup=0.5, epochs= 15 and my test accuracy was 86% with densenet121 as my feature extraction model.
 
+## Pre-Trained Network
+The checkpoint.pth file contains the information of a network trained to recognise 102 different species of flowers. I has been trained with specific hyperparameters thus if you don't set them right the network will fail. In order to have a prediction for an image located in the path /path/to/image using my pretrained model you can simply type ```python predict.py /path/to/image checkpoint.pth```
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/fotisk07/Image-Classifier/blob/master/CONTRIBUTING) for the process for submitting pull requests. 
