@@ -43,7 +43,7 @@ git clone https://github.com/fotisk07/Image-Classifier/
 ```
 then in the command Line type, after you have downloaded jupyter notebook type
 ```
-jyputer notebook
+jupyter notebook
 ```
 locate the notebook and run it.
 
